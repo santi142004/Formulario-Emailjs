@@ -1,0 +1,75 @@
+.seccion{
+    background-image: url('https://previews.123rf.com/images/kostafly/kostafly1710/kostafly171000048/87403784-el-fondo-creativo-hermoso-fondo-para-un-sitio-o-formulario-consiste-en-formas-y-l%C3%ADneas-fant%C3%A1sticas.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    color: #fff;
+}
+.formulario{
+    width: 35%;
+    margin: auto;
+    border: 6px solid #fff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 20px;
+}
+.fieldset{
+    margin: 2%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+}
+input{
+    width: 70%;
+    border-radius: 7px;
+    height: 30px;
+}
+label{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    color: #fff;
+    font-family: sans-serif;
+}
+.mensaje{
+    border-radius: 15px;
+}
+/* .boton{
+    width: 20%;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+.boton:hover{
+    background-color: aqua;
+} */
+
+/* Estilo base del botón */
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 3%;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative; /* Importante para el efecto flotante */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Estilo cuando el cursor está sobre el botón */
+.boton:hover {
+    background-color: #2980b9;
+    transform: translateY(-5px); /* Eleva el botón al pasar el cursor */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Agrega sombra */
+}
